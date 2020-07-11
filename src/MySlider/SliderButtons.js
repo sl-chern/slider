@@ -10,7 +10,7 @@ export default function SliderButtons(props) {
     return (
         <div id="sliderButtons" style={style}>
             {props.imgs.map((item,index) => (
-                <SliderRect pos={props.pos} number={index} onClick={props.onClick}/>
+                <SliderRect pos={props.pos} number={index} onClick={props.onClick} imgs={props.imgs}/>
             ))}
         </div>
     )

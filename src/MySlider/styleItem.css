@@ -1,7 +1,13 @@
 .sliderItem {
     width: 100%;
     height: auto;
-    animation: changeOpacity 0.5s;
+}
+
+#sliderElements {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: -100%;
 }
 
 @keyframes changeOpacity {
@@ -10,5 +16,23 @@
     }
     to {
         opacity: 1;
+    }
+}
+
+@keyframes next {
+    from {
+        left: 0;
+    }
+    to {
+        left: -100%;
+    }
+}
+
+@keyframes back {
+    from {
+        right: 100%;
+    }
+    to {
+        right: 0%;
     }
 }

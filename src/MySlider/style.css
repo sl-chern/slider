@@ -1,10 +1,12 @@
 #sliderContainer {
+    display: flex;
     position: relative;
     width: 600px;
     height: 397px;
     margin-left: auto;
     margin-right: auto;
     z-index: 0;
+    overflow: hidden;
 }
 
 .nextButton {

@@ -15,7 +15,20 @@ export default function SliderRect(props) {
     }
     return (
         <div className="sliderRect" style={style} onClick={() => {
-            props.onClick(props.number)
+            if(props.number < props.pos)
+                props.onClick(
+                    props.imgs[props.pos],
+                    "",
+                    "b",
+                    props.number
+                )
+            else
+                props.onClick(
+                    "",
+                    props.imgs[props.pos],
+                    "n",
+                    props.number
+                )
         }}> 
         </div>
     )
