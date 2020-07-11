@@ -1,0 +1,7 @@
+#sliderButtons {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 5%;
+    z-index: 1000;
+}

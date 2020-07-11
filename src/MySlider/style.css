@@ -1,0 +1,38 @@
+#sliderContainer {
+    position: relative;
+    width: 600px;
+    height: 397px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
+}
+
+.nextButton {
+    position: absolute;
+    bottom: 46%;
+    right: 8%;
+    z-index: 1000;
+    cursor: pointer;
+    opacity: 0.3;
+    width: 32px;
+    height: auto;
+}
+
+.nextButton:hover {
+    opacity: 0.7;
+}
+
+.backButton {
+    position: absolute;
+    bottom: 46%;
+    left: 3%;
+    z-index: 1000;
+    cursor: pointer;
+    opacity: 0.3;
+    width: 32px;
+    height: auto;
+}
+
+.backButton:hover {
+    opacity: 0.7;
+}

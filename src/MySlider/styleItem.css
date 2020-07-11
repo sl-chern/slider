@@ -1,0 +1,14 @@
+.sliderItem {
+    width: 100%;
+    height: auto;
+    animation: changeOpacity 0.5s;
+}
+
+@keyframes changeOpacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
